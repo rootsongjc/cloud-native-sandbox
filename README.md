@@ -1,6 +1,6 @@
 # Cloud Native Sandbox
 
-Cloud Native Sandbox can help you setup a standalone Kubernetes environment with Docker on you own laptop.
+Cloud Native Sandbox can help you setup a standalone Kubernetes and Istio environment with Docker on you own laptop.
 
 The sandbox integrated with the following components:
 
@@ -23,7 +23,9 @@ As I have created the [kubernetes-vagrant-centos-cluster](https://github.com/roo
 
 As the sandbox setup, you will get the following services.
 
-![Services](images/services.svg)
+<p align="center">
+    <img src="https://jimmysong.io/img/cloud-native-sandbox.svg" alt="Cloud Native Sandbox">
+</p>
 
 Record with [termtosvg](https://github.com/nbedos/termtosvg).
 
