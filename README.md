@@ -56,7 +56,7 @@ kubectl -n kube-system describe secret default| awk '$1=="token:"{print $2}'
 Expose `kubernetes-dashboard` service.
 
 ```bash
-kubectl -n kube-system get pod -l k8s-app=kubernetes-dashboard -o jsonpath='{.items[0].metadata.name}'
+kubectl proxy
 ```
 
 Login to Kubernetes dashboard on <http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/login> with the above token.
