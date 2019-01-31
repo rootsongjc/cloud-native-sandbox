@@ -44,7 +44,7 @@ To start the sandbox, you have to run the following steps.
 Install Kubernetes dashboard.
 
 ```bash
-kubectl apply -f install/dashbaord/
+kubectl apply -f install/dashboard/
 ```
 
 Get the dashboard token.
