@@ -19,16 +19,6 @@ As I have created the [kubernetes-vagrant-centos-cluster](https://github.com/roo
 - High speed, low drag
 - Easy to operate
 
-**Services**
-
-As the sandbox setup, you will get the following services.
-
-<p align="center">
-    <img src="https://jimmysong.io/img/cloud-native-sandbox.svg" alt="Cloud Native Sandbox">
-</p>
-
-Record with [termtosvg](https://github.com/nbedos/termtosvg).
-
 ## Prerequisite
 
 You only need a laptop with Docker Desktop installed and [Kubernetes enabled](https://docs.docker.com/docker-for-mac/#kubernetes).
